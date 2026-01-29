@@ -1,0 +1,14 @@
+{
+  "name": "faf-taf-demo",
+  "version": "1.0.0",
+  "description": "Demo: Git-Native Receipt Printer in action",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["faf", "taf", "testing", "demo", "car-framework"],
+  "author": "Wolfe-Jam",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
