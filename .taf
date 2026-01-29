@@ -1,24 +1,24 @@
-# Testing Activity Feed (TAF)
-# Git-Native Receipt Printer - Your test history, version controlled
-# https://github.com/Wolfe-Jam/faf-taf-git
-
 format: taf
 version: 1.0.0
-
-# Test History (most recent first)
 test_history:
-  - timestamp: "2025-01-29T00:00:00.000Z"
+  - timestamp: 2025-01-29T00:00:00.000Z
     result: PASSED
     passed: 7
     failed: 0
     total: 7
     duration_ms: 0
-    commit: "initial"
-    branch: "main"
-
-# Summary Statistics
+    commit: initial
+    branch: main
+  - timestamp: 2026-01-29T18:18:51.392Z
+    result: PASSED
+    tests:
+      total: 7
+      passed: 7
+      failed: 0
+    trigger: github-actions
 summary:
   total_runs: 1
   pass_rate: 100%
   last_result: PASSED
   streak: 1
+last_updated: 2026-01-29T18:18:51.392Z
