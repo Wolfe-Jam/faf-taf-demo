@@ -6,7 +6,7 @@ format: taf
 version: 1.0.0
 
 # Test History (most recent first)
-history:
+test_history:
   - timestamp: "2025-01-29T00:00:00.000Z"
     result: PASSED
     passed: 7
