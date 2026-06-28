@@ -1,5 +1,7 @@
-format: taf
-version: 1.0.0
+format_version: "1.0.0"
+project: faf-taf-demo
+created: 2025-01-29T00:00:00.000Z
+last_updated: 2026-06-28T06:35:03.120Z
 test_history:
   - timestamp: 2025-01-29T00:00:00.000Z
     result: PASSED
@@ -79,9 +81,3 @@ test_history:
       passed: 7
       failed: 0
     trigger: github-actions
-summary:
-  total_runs: 1
-  pass_rate: 100%
-  last_result: PASSED
-  streak: 1
-last_updated: 2026-06-28T06:35:03.120Z
