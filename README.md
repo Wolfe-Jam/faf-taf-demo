@@ -1,20 +1,22 @@
 # faf-taf-demo
 
 [![CI + TAF Receipt](https://github.com/Wolfe-Jam/faf-taf-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/Wolfe-Jam/faf-taf-demo/actions/workflows/ci.yml)
-[![View .taf Receipt](https://img.shields.io/badge/View-.taf%20Receipt-green)](https://github.com/Wolfe-Jam/faf-taf-demo/blob/main/.taf)
+[![Live .taf timeline](https://img.shields.io/badge/.taf-live%20timeline-00D4D4)](https://github.com/Wolfe-Jam/faf-taf-demo/blob/taf-receipts/.taf)
 
 Demo: **Git-Native Receipt Printer** in action.
 
 ## Try It Now
 
 1. **[Run Workflow](https://github.com/Wolfe-Jam/faf-taf-demo/actions/workflows/ci.yml)** → Click "Run workflow" button
-2. **[Watch .taf Update](https://github.com/Wolfe-Jam/faf-taf-demo/blob/main/.taf)** → See new entry appear
+2. **[Watch the timeline grow](https://github.com/Wolfe-Jam/faf-taf-demo/blob/taf-receipts/.taf)** → a new receipt appends every run
 
-Or fork this repo and push a commit - the `.taf` updates automatically.
+Or fork this repo and push a commit - the receipt prints automatically.
+
+> The receipts live on the **[`taf-receipts`](https://github.com/Wolfe-Jam/faf-taf-demo/tree/taf-receipts)** branch — append-only, one more every CI run. `main` stays your code; the **timeline is the proof**. Full format: **[RECEIPT-FORMAT.md](https://github.com/Wolfe-Jam/faf-taf-git/blob/main/RECEIPT-FORMAT.md)**.
 
 ## What is .taf?
 
-`.taf` (Testing Activity Feed) is the "Receipt" in the CAR Framework:
+`.taf` (Test Receipts) is the "Receipt" in the CAR Framework:
 
 | Component | File | Purpose |
 |-----------|------|---------|
