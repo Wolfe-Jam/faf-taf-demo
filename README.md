@@ -30,12 +30,12 @@ Or fork this repo and push a commit - the receipt prints automatically.
 
 1. Push code (or click "Run workflow")
 2. CI runs tests
-3. [faf-taf-git](https://github.com/marketplace/actions/faf-taf-action) auto-updates `.taf`
+3. [faf-taf-git](https://github.com/marketplace/actions/taf-testing-ai-format) auto-updates `.taf`
 4. Test history is version controlled forever
 
 ## Links
 
-- [faf-taf-git on GitHub Marketplace](https://github.com/marketplace/actions/faf-taf-action)
+- [faf-taf-git on GitHub Marketplace](https://github.com/marketplace/actions/taf-testing-ai-format)
 - [FAF Format (IANA Registered)](https://www.iana.org/assignments/media-types/application/vnd.faf+yaml)
 - [faf.one](https://faf.one)
 
